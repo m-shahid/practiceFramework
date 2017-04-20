@@ -13,5 +13,6 @@ public class Demo {
 		System.setProperty("webdriver.chrome.driver", "D:\\shahid\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");
+		driver.manage().window().maximize();
 	}
 }
